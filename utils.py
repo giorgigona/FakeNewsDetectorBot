@@ -1,10 +1,5 @@
 
-import pickle
-from telefone import Bot
-
-from gensim.models.doc2vec import Doc2Vec
 from nltk.tokenize import word_tokenize
-
 from langdetect import detect
 
 import mysql.connector

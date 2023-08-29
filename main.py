@@ -3,6 +3,7 @@ import telebot
 
 from utils import *
 
+from gensim.models.doc2vec import Doc2Vec
 import nltk
 nltk.download('punkt')
 
